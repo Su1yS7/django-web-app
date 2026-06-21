@@ -1,0 +1,30 @@
+{% extends 'listings/base.html' %}
+{% block  content %}
+
+
+
+<p>Les tires de mes groupes préférés sont :</p>
+<ul>
+    {% for title in titres %}
+    <li>{{ title.title }}</li>
+    {% endfor %}
+</ul>
+
+{% endblock %}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
